@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Ao Vivo</string>
-    <string name="title_home">Home</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_home"></string>
     <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_notifications">Loading map...</string>
     <string name="title_info">Info</string>
     <string name="title_map">Map</string>
-    <string name="google_maps_key">AIzaSyC76CQ2aQJ25uiGV-T35IVgtIQ3ZZVZJXU</string>
     <string name="blank" />
 </resources>

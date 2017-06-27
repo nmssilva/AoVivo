@@ -17,13 +17,11 @@
 
         <TextView
             android:id="@+id/message"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/activity_vertical_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginTop="@dimen/activity_vertical_margin"
-            android:text="@string/title_home"/>
+            android:layout_marginTop="250dp"
+            android:gravity="center"
+            android:text="@string/title_home" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -45,13 +43,117 @@
             android:visibility="gone"
             app:srcCompat="@mipmap/info" />
 
-        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:tools="http://schemas.android.com/tools"
-            android:id="@+id/map"
-            android:name="com.google.android.gms.maps.SupportMapFragment"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+        <ImageView
+            android:id="@+id/cave"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/cave45" />
+
+        <ImageView
+            android:id="@+id/maus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/maus" />
+
+        <ImageView
+            android:id="@+id/planob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/planob" />
+
+        <ImageView
+            android:id="@+id/metalpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/metalpoint" />
+
+        <ImageView
+            android:id="@+id/cafeaulait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/cafeaulait" />
+
+        <ImageView
+            android:id="@+id/hardclub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="430dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/hardclub" />
+
+        <ImageView
+            android:id="@+id/armazem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:visibility="gone"
+            app:srcCompat="@mipmap/armazem" />
+
+        <ImageView
+            android:id="@+id/cavep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/cavep" />
+
+        <ImageView
+            android:id="@+id/armazemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/armazemp" />
+
+        <ImageView
+            android:id="@+id/mausp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/mausp" />
+
+        <ImageView
+            android:id="@+id/planobp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/planobp" />
+
+        <ImageView
+            android:id="@+id/metalpointp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/metalpointp" />
+
+        <ImageView
+            android:id="@+id/cafeaulaitp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/cafeaulaitp" />
+
+        <ImageView
+            android:id="@+id/hardclubp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@mipmap/hardclubp" />
 
     </FrameLayout>
 
