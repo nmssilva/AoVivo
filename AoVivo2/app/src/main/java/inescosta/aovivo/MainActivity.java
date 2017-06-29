@@ -3,6 +3,7 @@ package inescosta.aovivo;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
@@ -10,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.VideoView;
 
 import com.google.android.gms.maps.MapsInitializer;
 
@@ -20,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView info;
     private ImageView cave,maus,armazem,planob,metalpoint,cafeaulait,hardclub;
     private ImageView cavep,mausp,armazemp,planobp,metalpointp,cafeaulaitp,hardclubp;
+    private VideoView metalpointv;
 
     Intent second;
     BottomNavigationView bottomNavigationView;

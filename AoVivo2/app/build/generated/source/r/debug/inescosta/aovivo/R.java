@@ -3234,6 +3234,7 @@ containing a value of this type.
         public static final int metalpointp=0x7f03000f;
         public static final int planob=0x7f030010;
         public static final int planobp=0x7f030011;
+        public static final int testgif=0x7f030012;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;
