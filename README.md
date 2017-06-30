@@ -17,7 +17,7 @@ Watch the [TEASER](https://dl.dropboxusercontent.com/s/10cn7dcb6kzd6nw/paabest.m
 
 
 <a href="url"><img src="http://i.imgur.com/afo9hni.png" align="middle" height="40%" width="40%" ></a>
-<a href="url"><img src="http://i.imgur.com/oXhhP3e.png" align="middle" height="40%" width="40%" ></a>
+<a href="url"><img src="http://i.imgur.com/1sp1tyw.png" align="middle" height="40%" width="40%" ></a>
 
 </div>
 
