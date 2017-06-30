@@ -1,6 +1,6 @@
 # AoVivo
 
-Download the [APP](https://github.com/nmssilva/AoVivo/raw/master/AoVivo2/app/build/outputs/apk/AoVivo.apk) !
+Download the [APP](https://github.com/nmssilva/AoVivo/releases/download/v1.0.1/AoVivo.apk) !
 
 An Android App for a design project someone special asked me to do. This is also my first Android App.
 
