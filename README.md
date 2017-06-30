@@ -1,11 +1,12 @@
 # AoVivo
+
+Download the [APP](https://github.com/nmssilva/AoVivo/raw/master/AoVivo2/app/build/outputs/apk/AoVivo.apk) !
+
 An Android App for a design project someone special asked me to do. This is also my first Android App.
 
 Ao Vivo is an App that guides you through venues in the city of Porto where you can go to gigs from Indie Rock to Heavy Metal.
 
-Download the >[APP](https://github.com/nmssilva/AoVivo/raw/master/AoVivo2/app/build/outputs/apk/AoVivo.apk)< !
-
-Watch the >[TEASER](https://dl.dropboxusercontent.com/s/10cn7dcb6kzd6nw/paabest.mp4?dl=0)< !
+Watch the [TEASER](https://dl.dropboxusercontent.com/s/10cn7dcb6kzd6nw/paabest.mp4?dl=0) !
 
 <div align="center">
 
