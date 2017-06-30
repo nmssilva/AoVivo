@@ -2,10 +2,12 @@ package inescosta.aovivo;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentActivity;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -14,6 +16,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
@@ -86,6 +89,21 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         bundle = new Bundle();
+
+        try {
+            // Customise the styling of the base map using a JSON object defined
+            // in a raw resource file.
+            boolean success = mMap.setMapStyle(
+                    MapStyleOptions.loadRawResourceStyle(
+                            this, R.raw.map_style));
+
+            if (!success) {
+                Log.e("MapsActivityRaw", "Style parsing failed.");
+            }
+        } catch (Resources.NotFoundException e) {
+            Log.e("MapsActivityRaw", "Can't find style.", e);
+        }
+
         LatLng centro = new LatLng(41.145739,-8.604061);
 
         //LOCAIS
