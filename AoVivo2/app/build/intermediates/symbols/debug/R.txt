@@ -1026,7 +1026,6 @@ int mipmap metalpoint 0x7f03000e
 int mipmap metalpointp 0x7f03000f
 int mipmap planob 0x7f030010
 int mipmap planobp 0x7f030011
-int mipmap testgif 0x7f030012
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001
 int string abc_action_bar_home_subtitle_description_format 0x7f070002
